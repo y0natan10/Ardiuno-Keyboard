@@ -1,0 +1,81 @@
+int pinA = 32;
+int pinAs = 42;
+int pinB = 52;
+int pinC = 40;
+int pinCs = 23;
+int pinD = 25;
+int pinDs = 37;
+int pinE = 50;
+int pinF = 49;
+int pinFs = 31;
+int pinG = 39;
+int pinGs = 51;
+
+int A = 220;
+int As = 233;
+int B = 245;
+int C = 262;
+int Cs = 277;
+int D = 294;
+int Ds = 311;
+int E = 330;
+int F = 349;
+int Fs = 370;
+int G = 392;
+int Gs = 415;
+
+void setup() {
+
+  pinMode(pinA, OUTPUT);
+  digitalWrite (pinA, HIGH);
+  pinMode(pinAs, OUTPUT);
+  digitalWrite (pinAs, HIGH);
+  pinMode(pinB, OUTPUT);
+  digitalWrite (pinB, HIGH);
+  pinMode(pinC, OUTPUT);
+  digitalWrite (pinC, HIGH);
+  pinMode(pinCs, OUTPUT);
+  digitalWrite (pinCs, HIGH);
+  pinMode(pinD, OUTPUT);
+  digitalWrite (pinD, HIGH);
+  pinMode(pinDs, OUTPUT);
+  digitalWrite (pinDs, HIGH);
+  pinMode(pinE, OUTPUT);
+  digitalWrite (pinE, HIGH);
+  pinMode(pinF, OUTPUT);
+  digitalWrite (pinF, HIGH);
+  pinMode(pinFs, OUTPUT);
+  digitalWrite (pinFs, HIGH);
+  pinMode(pinG, OUTPUT);
+  digitalWrite (pinG, HIGH);
+  pinMode(pinGs, OUTPUT);
+  digitalWrite (pinGs, HIGH);
+
+}
+
+void loop() {
+  tone(pinA, A);
+  noTone(pinA);
+  tone(pinAs, As);
+  noTone(pinAs);
+  tone(pinB, B);
+  noTone(pinB);
+  tone(pinC, C);
+  noTone(pinC);
+  tone(pinCs, Cs);
+  noTone(pinCs);
+  tone(pinD, D);
+  noTone(pinD);
+  tone(pinDs, Ds);
+  noTone(pinDs);
+  tone(pinE, E);
+  noTone(pinE);
+  tone(pinF, F);
+  noTone(pinF);
+  tone(pinFs, Fs);
+  noTone(pinFs);
+  tone(pinG, G);
+  noTone(pinG);
+  tone(pinGs, Gs);
+  noTone(pinGs);
+}
